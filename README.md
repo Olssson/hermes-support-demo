@@ -1,5 +1,7 @@
 # Hermes Support — od wiadomości klienta do rozliczenia zwrotu
 
+**Dla oceniających:** [uruchom demo bez konta i kluczy](QUICKSTART.md).
+
 **Support dla sprzedawców marketplace korzystających z BaseLinkera.** Zamiast ręcznie przełączać się między skrzynką, zamówieniem i fakturą, Support łączy kontekst sprawy i przygotowuje odpowiedź, a Orders odpowiada za operacje na dokumentach.
 
 To wydanie udostępnia wybrane istniejące moduły: odczyt zamówień w BaseLinkerze, obsługę IMAP/SMTP, transport próbny bez wysyłki oraz kontrakt HTTP integracji z systemem korekt. Diagram pokazuje architekturę systemu źródłowego, **nie gotowy do wdrożenia proces z tego repo**. Nie dołączono produkcyjnego wykonawcy Orders ani bazy i orkiestracji spraw.
