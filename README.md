@@ -6,6 +6,8 @@ To wydanie udostępnia wybrane istniejące moduły: odczyt zamówień w BaseLink
 
 ## Konfiguracja komponentów
 
+[Instrukcja krok po kroku: instalacja Hermesa, skrzynka, BaseLinker i Orders](INSTALL.md).
+
 W Pythonie 3.11+ zainstaluj `python -m pip install -r requirements.txt`. [`.env.example`](.env.example) pokazuje wspierane ustawienia. Własne klucze trzymaj w lokalnym `.env`, poza Gitem. `nexo_support_mcp.config.load_settings` odczytuje konfigurację, ale samo skopiowanie `.env` nie uruchamia agenta. Adapter korekt oczekuje osobnej usługi z `GET /corrections` i `POST /corrections`; nie jest to endpoint BaseLinkera. Adaptery są komponentami bibliotecznymi, nie usługą działającą w tle.
 
 ```mermaid
